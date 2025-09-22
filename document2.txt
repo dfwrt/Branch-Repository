@@ -16,6 +16,8 @@ void merge(int arr[], int l,
 	int L[n1], R[n2];
 
 	// Copy data to temp arrays
+	# 문서2 수정
+	# abc
 	// L[] and R[]
 	for (i = 0; i < n1; i++)
 		L[i] = arr[l + i];
