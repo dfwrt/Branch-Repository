@@ -5,8 +5,9 @@ def partition123abc(l, r, nums): #오픈소스 테스트
         if nums[i] <= pivot:
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
+            ptr += 1 #수정 3
             print("가나다")
+            print("abc")
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
