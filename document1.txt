@@ -1,4 +1,4 @@
-def partition123(l, r, nums): #오픈소스 테스트
+def partition123abc(l, r, nums): #오픈소스 테스트
     # Last element will be the pivot and the first element the pointer
     pivot, ptr = nums[r], l
     for i in range(l, r):
@@ -6,6 +6,7 @@ def partition123(l, r, nums): #오픈소스 테스트
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
             ptr += 1
+            print("가나다")
     # Finally swapping the last element with the pointer indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
