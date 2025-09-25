@@ -1,1 +1,1 @@
-Branch 충돌 테스트
+Branch 충돌 합병
